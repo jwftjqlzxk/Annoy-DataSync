@@ -1,0 +1,93 @@
+{
+  "datasets": [
+    {
+      "label": "Annoy-PythonEdu-Rs",
+      "repo": "Annoy-Pyedu-Rs",
+      "available": true
+    },
+    {
+      "label": "Annoy-PythonEdu-Rs-Raw",
+      "repo": "Annoy-PyEdu-Rs-Raw",
+      "available": true
+    },
+    {
+      "label": "LCO Benchmark",
+      "repo": "LCO",
+      "available": false
+    }
+  ],
+  "models": [
+    {
+      "family": "Qwen 2.5 7B Coder",
+      "checkpoint": "qwen2.5-7b-coder_spec_stage1",
+      "stage": "annoy-stage-1",
+      "available": false
+    },
+    {
+      "family": "Qwen 2.5 7B Coder",
+      "checkpoint": "qwen2.5-7b-coder_spec",
+      "stage": "annoy-stage-2",
+      "available": false
+    },
+    {
+      "family": "Qwen 2.5 7B Coder",
+      "checkpoint": "qwen2.5-7b-coder_spec_pp_stage1",
+      "stage": "annoy-plus-plus-stage-1",
+      "available": false
+    },
+    {
+      "family": "Qwen 2.5 7B Coder",
+      "checkpoint": "qwen2.5-7b-coder_spec_pp",
+      "stage": "annoy-plus-plus-stage-2",
+      "available": false
+    },
+    {
+      "family": "LLaMA 3.1 8B",
+      "checkpoint": "llama3.1-8b_spec_stage1",
+      "stage": "annoy-stage-1",
+      "available": false
+    },
+    {
+      "family": "LLaMA 3.1 8B",
+      "checkpoint": "llama3.1-8b_spec",
+      "stage": "annoy-stage-2",
+      "available": false
+    },
+    {
+      "family": "LLaMA 3.1 8B",
+      "checkpoint": "llama3.1-8b_spec_pp_stage1",
+      "stage": "annoy-plus-plus-stage-1",
+      "available": false
+    },
+    {
+      "family": "LLaMA 3.1 8B",
+      "checkpoint": "llama3.1-8b_spec_pp",
+      "stage": "annoy-plus-plus-stage-2",
+      "available": false
+    },
+    {
+      "family": "DeepSeek v2 Lite Coder",
+      "checkpoint": "dsv2-lite-coder_spec_stage1",
+      "stage": "annoy-stage-1",
+      "available": false
+    },
+    {
+      "family": "DeepSeek v2 Lite Coder",
+      "checkpoint": "dsv2-lite-coder_spec",
+      "stage": "annoy-stage-2",
+      "available": false
+    },
+    {
+      "family": "DeepSeek v2 Lite Coder",
+      "checkpoint": "dsv2-lite-coder_spec_pp_stage1",
+      "stage": "annoy-plus-plus-stage-1",
+      "available": false
+    },
+    {
+      "family": "DeepSeek v2 Lite Coder",
+      "checkpoint": "dsv2-lite-coder_spec_pp",
+      "stage": "annoy-plus-plus-stage-2",
+      "available": false
+    }
+  ]
+}
